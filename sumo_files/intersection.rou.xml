@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+    <!-- Vehicle type -->
+    <vType id="car" accel="2.6" decel="4.5" sigma="0.5" length="5" maxSpeed="50"/>
+    
+    <!-- Routes -->
+    <!-- North to South -->
+    <route id="N2S" edges="N2C C2S"/>
+    <!-- North to East -->
+    <route id="N2E" edges="N2C C2E"/>
+    <!-- North to West -->
+    <route id="N2W" edges="N2C C2W"/>
+    
+    <!-- South to North -->
+    <route id="S2N" edges="S2C C2N"/>
+    <!-- South to East -->
+    <route id="S2E" edges="S2C C2E"/>
+    <!-- South to West -->
+    <route id="S2W" edges="S2C C2W"/>
+    
+    <!-- East to West -->
+    <route id="E2W" edges="E2C C2W"/>
+    <!-- East to North -->
+    <route id="E2N" edges="E2C C2N"/>
+    <!-- East to South -->
+    <route id="E2S" edges="E2C C2S"/>
+    
+    <!-- West to East -->
+    <route id="W2E" edges="W2C C2E"/>
+    <!-- West to North -->
+    <route id="W2N" edges="W2C C2N"/>
+    <!-- West to South -->
+    <route id="W2S" edges="W2C C2S"/>
+    
+    <!-- Traffic flows -->
+    <!-- Peak hours with high traffic -->
+    <flow id="flow_N2S" type="car" route="N2S" begin="0" end="3600" probability="0.15"/>
+    <flow id="flow_N2E" type="car" route="N2E" begin="0" end="3600" probability="0.05"/>
+    <flow id="flow_N2W" type="car" route="N2W" begin="0" end="3600" probability="0.05"/>
+    
+    <flow id="flow_S2N" type="car" route="S2N" begin="0" end="3600" probability="0.15"/>
+    <flow id="flow_S2E" type="car" route="S2E" begin="0" end="3600" probability="0.05"/>
+    <flow id="flow_S2W" type="car" route="S2W" begin="0" end="3600" probability="0.05"/>
+    
+    <flow id="flow_E2W" type="car" route="E2W" begin="0" end="3600" probability="0.10"/>
+    <flow id="flow_E2N" type="car" route="E2N" begin="0" end="3600" probability="0.03"/>
+    <flow id="flow_E2S" type="car" route="E2S" begin="0" end="3600" probability="0.03"/>
+    
+    <flow id="flow_W2E" type="car" route="W2E" begin="0" end="3600" probability="0.10"/>
+    <flow id="flow_W2N" type="car" route="W2N" begin="0" end="3600" probability="0.03"/>
+    <flow id="flow_W2S" type="car" route="W2S" begin="0" end="3600" probability="0.03"/>
+</routes>

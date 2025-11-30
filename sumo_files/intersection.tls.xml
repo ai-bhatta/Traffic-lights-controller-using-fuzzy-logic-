@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<additional>
+    <tlLogic id="0" type="static" programID="0" offset="0">
+        <!-- Phase 0: North-South GREEN, East-West RED -->
+        <phase duration="30" state="GGGgrrrrGGGgrrrr"/>
+        
+        <!-- Phase 1: North-South YELLOW, East-West RED -->
+        <phase duration="3"  state="yyyyrrrryyyyrrrr"/>
+        
+        <!-- Phase 2: North-South RED, East-West GREEN -->
+        <phase duration="30" state="rrrrGGGgrrrrGGGg"/>
+        
+        <!-- Phase 3: North-South RED, East-West YELLOW -->
+        <phase duration="3"  state="rrrryyyyrrrryyyy"/>
+    </tlLogic>
+</additional>

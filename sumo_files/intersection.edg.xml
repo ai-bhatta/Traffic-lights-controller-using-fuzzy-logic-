@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<edges>
+    <!-- North to Center -->
+    <edge id="N2C" from="N" to="0" priority="78" numLanes="2" speed="13.89"/>
+    <!-- Center to North -->
+    <edge id="C2N" from="0" to="N" priority="46" numLanes="2" speed="13.89"/>
+    
+    <!-- South to Center -->
+    <edge id="S2C" from="S" to="0" priority="78" numLanes="2" speed="13.89"/>
+    <!-- Center to South -->
+    <edge id="C2S" from="0" to="S" priority="46" numLanes="2" speed="13.89"/>
+    
+    <!-- East to Center -->
+    <edge id="E2C" from="E" to="0" priority="78" numLanes="2" speed="13.89"/>
+    <!-- Center to East -->
+    <edge id="C2E" from="0" to="E" priority="46" numLanes="2" speed="13.89"/>
+    
+    <!-- West to Center -->
+    <edge id="W2C" from="W" to="0" priority="78" numLanes="2" speed="13.89"/>
+    <!-- Center to West -->
+    <edge id="C2W" from="0" to="W" priority="46" numLanes="2" speed="13.89"/>
+</edges>
