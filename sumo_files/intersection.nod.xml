@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nodes>
+    <!-- Center intersection -->
+    <node id="0" x="0.0" y="0.0" type="traffic_light"/>
+    
+    <!-- North -->
+    <node id="N" x="0.0" y="200.0" type="priority"/>
+    
+    <!-- South -->
+    <node id="S" x="0.0" y="-200.0" type="priority"/>
+    
+    <!-- East -->
+    <node id="E" x="200.0" y="0.0" type="priority"/>
+    
+    <!-- West -->
+    <node id="W" x="-200.0" y="0.0" type="priority"/>
+</nodes>
